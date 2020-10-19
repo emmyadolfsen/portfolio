@@ -15,7 +15,7 @@ function getProjects() {
             data.forEach(object => {                   // Loopa igenom objekten och skriv ut
                 projectsEl.innerHTML +=
                     `
-                    <a href="${object.project_url}">
+                <a href="${object.project_url}">
                 <li class="project-list">
                 <img src="images/${object.project_img}" class="project_img" alt="">
                 <h2 class="project-text">${object.project_name}</h2>

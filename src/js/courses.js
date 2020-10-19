@@ -19,7 +19,6 @@ function getCourses() {
                     <ul><li>
                     ${object.course_date} - 
                     ${object.course_name}
-                    
                     </li></ul>
                     </section>
                 `

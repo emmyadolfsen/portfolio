@@ -17,7 +17,7 @@ function getProjects() {
                     `
                     <a href="${object.project_url}">
                 <li class="project-list">
-                <img src="/images/${object.project_img}" class="project_img" alt="">
+                <img src="images/${object.project_img}" class="project_img" alt="">
                 <h2 class="project-text">${object.project_name}</h2>
                     <p>${object.project_d}</p>
                 </li></a>

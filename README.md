@@ -1,7 +1,9 @@
 # Portfolio - Emmy Adolfsén
 Denna portfolio listar **kurser** jag läst, **anställningar** jag har haft och **projekt** jag har gjort samt lite övrig info.
 
-Portfolion har byggts i VSC med hjälp av **Gulp**. Följande gulphjälpmedel har använts:
+http://raggmunkar.se/portfolio/index.html
+
+Portfolion har byggts i VSC med **Gulp**. Följande paket har använts:
 * gulp-concat
 * gulp-uglify-es
 * gulp-clean-css
@@ -14,4 +16,4 @@ Portfolion har byggts i VSC med hjälp av **Gulp**. Följande gulphjälpmedel ha
 
 Anrop sker via Javascript - **Fetch** mot webbtjänst.
 
-Designen har byggts med hjälp av **Sass**.
+Designen har byggts med hjälp av **Sass** och lite **jQuery**.

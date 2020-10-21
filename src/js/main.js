@@ -2,7 +2,6 @@ $(document).ready(function() {
     $(".title").lettering();
   });
   
-  
   $(document).ready(function() {
     animation();
   }, 1000);

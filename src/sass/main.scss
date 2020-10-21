@@ -84,6 +84,7 @@ a:link {
 
 
 /**************COURSES**************/
+
 .courses {
     font-weight: 600;
     display: block;
@@ -119,8 +120,10 @@ tr.last-in-line {
     border-bottom: none;
 }
 .courses-left {
+    padding-left: 1rem;
+    max-width: 300px;
     ul {
-        list-style: square inside;
+        list-style: disc;
 
     }
     
@@ -314,18 +317,19 @@ tr.last-in-line {
     
     color: $p-color;
     padding-left: 7%;
+    
 }
 .right-middle-box h3 {
         padding-left: 7%;
 }
 #work li {
     color: $p-color;
-    padding-left: 7%;
+    margin-left: 7%;
     font-size: 14px;
     font-weight: 600;
-    padding-right: 0;
+    padding-right: 5%;
     list-style-type: disc;
-    list-style-position: inside;
+
 }
 b {
     color: darken($p-color, 4%);

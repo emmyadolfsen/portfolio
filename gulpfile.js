@@ -10,6 +10,7 @@ const browserSync = require('browser-sync').create();
 const sourcemaps = require('gulp-sourcemaps');
 const babel = require('gulp-babel');
 
+// Lägg till följande för att få alla paket:
 //npm install --save-dev gulp-concat gulp-uglify-es gulp-clean-css gulp-imagemin gulp-htmlmin gulp-sass browser-sync gulp-sourcemaps
 //npm install --save-dev gulp-babel @babel/core @babel/preset-env
 
@@ -66,9 +67,9 @@ function jsTask() {
         .pipe(babel({
             presets: ['@babel/env']
         }))
-        .pipe(concat('main.js'))
+        //.pipe(concat('main.js'))      // Vill inte ha allt i en js-fil
         .pipe(uglify())
-        .pipe(sourcemaps.write('.'))
+        //.pipe(sourcemaps.write('.'))
         .pipe(dest('pub/js'))
 }
 

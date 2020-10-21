@@ -16,10 +16,11 @@ function getCourses() {
                 coursesEl.innerHTML +=
                     `
                     <section class="courses-left">
-                    <ul><li>
-                    ${object.course_date} - 
-                    ${object.course_name}
-                    </li></ul>
+                    <ul>
+                    <a href="${object.syllabus}"><li>
+                    ${object.course_name} - 
+                    ${object.course_date}
+                    </ul>
                     </section>
                 `
             })

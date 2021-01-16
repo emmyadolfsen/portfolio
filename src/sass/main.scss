@@ -31,7 +31,7 @@ body {
 }
 nav {
     width: 100%;
-    margin-bottom: 270px;
+    margin-bottom: 200px;
 }
 .index-container {
     margin-top: 450px;
@@ -82,10 +82,56 @@ a:link {
     opacity: 0.5;
 }
 
+/************** XP *****************/
+#xp-list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    ul {
+        display: flex;
+        justify-content: center;
+    }
 
+li {
+    display: inline;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow: 3px 1px 5px $title-shadow;
+    //background-color: $triangle-color;
+    color: $h1-color;
+    font-weight: 600;
+    text-shadow: $title-shadow 1px 1px, $title-shadow 1px 1px, $title-shadow 2px 2px;
+}
+li:hover {
+    box-shadow: 2px 1px 3px $title-shadow;
+    color: lighten($h1-color, 8%);
+    cursor: pointer;
+}
+li:active {
+    box-shadow: 1px 1px 1px $title-shadow;
+    color: $h1-color;
+}
+.animate__animated.animate__backInRight.css {
+    --animate-duration: 1.2s;
+}
+.animate__animated.animate__backInRight.javascript {
+    --animate-duration: 1.4s;
+}
+.animate__animated.animate__backInRight.php {
+    --animate-duration: 1.6s;
+}
+.animate__animated.animate__backInRight.wordpress {
+    --animate-duration: 1.8s;
+}
+.animate__animated.animate__backInRight.c {
+    --animate-duration: 2s;
+}
+}
 /**************COURSES**************/
 
 .courses {
+    
     font-weight: 600;
     display: block;
     display: flex;
@@ -93,15 +139,24 @@ a:link {
     td {
         vertical-align: middle;
         padding-left: 1rem;
+        width: 67%;
         &:nth-child(1){
             border-right: 1px solid rgba($table-line-color, 0.5);
             padding-right: 1rem;
+            width: 33%;
         }
     }
     tr {
         height: 40px;
         border-bottom: 1px solid rgba($table-line-color, 0.5);
     }
+    table {
+        width: 455px;
+    }
+    
+}
+.table-2 {
+    margin-top: 5rem;
 }
 .course-list {
     padding-top: 1rem;

@@ -16,17 +16,45 @@
     <header>
         <nav>
             <ol class="flex-container animate__animated animate__fadeInDown">
-                <li class="nav-link"><a href="courses.html">Courses</a></li>
-                <li class="nav-link"><a href="projects.html">Recent work</a></li>
-                <li class="last-in-line nav-link"><a href="story.html">My story</a></li>
+                <li class="nav-link"><a href="projects.html">Projects</a></li>
+                <li class="nav-link"><a href="courses.html">XP</a></li>
+                <li class="nav-link last-in-line"><a href="story.html">My story</a></li>
             </ol>
         </nav>
     </header>
     <section class="title-container small-container">
         <h1>
-          <span class="title small-title">courses</span>
+          <span class="title small-title">skills</span>
         </h1>
     </section>
+
+
+<div id="xp-list">
+<ul>
+    <li id="html" class="xp-list animate__animated animate__backInRight html" onclick="addAnimateClassHTML()">
+        HTML
+    </li>
+    <li class="xp-list animate__animated animate__backInRight css" onclick="addAnimateClassCSS()">
+        CSS
+    </li>
+    <li class="xp-list animate__animated animate__backInRight javascript" onclick="addAnimateClassJavascript()">
+        JavaScript
+    </li>
+    <li class="xp-list animate__animated animate__backInRight php" onclick="addAnimateClassPHP()">
+        PHP
+    </li>
+    <li class="xp-list animate__animated animate__backInRight c" onclick="addAnimateClassC()">
+        C#
+    </li>
+    <li class="xp-list animate__animated animate__backInRight wordpress"  onclick="addAnimateClassWordpress()">
+        Wordpress
+    </li>
+
+</ul>
+</div>
+
+
+    
     <article class="courses table animate__animated animate__fadeIn">
         <h2 class="h3-hide-title">Courses read</h2>
         <table>
@@ -36,7 +64,7 @@
             </tr>
             <tr>
                 <td><img src="images/university.svg" class="icon-img left-table" alt=""></td>
-                <td>Mittuniversitet, Sundsvall</td>
+                <td>Mittuniversitetet, Sundsvall</td>
             </tr>
             <tr>
                 <td><img src="images/book.svg" class="icon-img left-table" alt=""></td>
@@ -45,6 +73,45 @@
             <tr class="last-in-line">
                 <td class="courses-read">Courses read:</td>
                 <td class="course-list" id="courses">
+                </td>
+            </tr>
+        </table>
+    </article>
+
+    <article class="courses table animate__animated animate__fadeIn table-2">
+        <h2 class="h3-hide-title">Independent courses</h2>
+        <table>
+            <tr>
+                <td><img src="images/student-hat.svg" class="icon-img left-table" alt=""></td>
+                <td>Independent courses</td>
+            </tr>
+            <tr>
+                <td><img src="images/university.svg" class="icon-img left-table" alt=""></td>
+                <td>Uppsala Universitet</td>
+            </tr>
+            <tr>
+                <td><img src="images/book.svg" class="icon-img left-table" alt=""></td>
+                <td>Sommarkurs</td>
+            </tr>
+            <tr class="last-in-line">
+                <td class="courses-read">Courses read:</td>
+                <td class="course-list" id="">
+                    <section class="courses-left">
+                        <ul>
+                            <a href="https://www.uu.se/utbildning/utbildningar/selma/kursplan/?kpid=39157&type=1">
+                                <li>
+                                    Informationsteknologi - 
+                                    <br>
+                                    möjligheter och utmaningar 10p 
+                                    <br>
+                                    - 2020
+                                </li>
+                            </a>
+
+                        </ul>
+                    </section>
+
+
                 </td>
             </tr>
         </table>

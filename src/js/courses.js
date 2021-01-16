@@ -26,3 +26,31 @@ function getCourses() {
             })
         })
 }
+
+function addAnimateClassHTML() {
+
+    $('.html').addClass("animate__flip");
+
+  }
+
+function addAnimateClassCSS() {
+    $('.css').addClass("animate__flip");
+
+  }
+function addAnimateClassJavascript() {
+    $('.javascript').addClass("animate__flip");
+
+  }
+function addAnimateClassPHP() {
+    $('.php').addClass("animate__flip");
+
+  }
+function addAnimateClassC() {
+    $('.c').addClass("animate__flip");
+
+  }
+function addAnimateClassWordpress() {
+    $('.wordpress').addClass("animate__flip");
+
+  }
+
